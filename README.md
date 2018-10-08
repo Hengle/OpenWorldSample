@@ -11,4 +11,5 @@ Memory budget: 600mb
 - com.unity.render-pipelines.lightweight  
 - com.unity.shadergraph  
 - com.unity.postprocessing  
-- com.unity.addressables  
+- com.unity.addressables  // 2018-10-18 currently "0.3.5-preview"  
+- com.unity.memoryprofiler // 2018-10-18 currently "0.1.0-preview.1"  
