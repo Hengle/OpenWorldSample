@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_defaultGroup: 4b77c714a610ebf499e6181bc4ccbca4
+  m_assetsModified: 1
+  m_groups: []
+  m_groupAssets:
+  - {fileID: 11400000, guid: 1119662b1b71ec741b7de27d83cc2b22, type: 2}
+  - {fileID: 11400000, guid: 1b2471f9bcfb45b43a0b958671254842, type: 2}
+  m_buildSettings:
+    m_compileScriptsInVirtualMode: 0
+    m_cleanupStreamingAssetsAfterBuilds: 1
+    m_bundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_profileSettings:
+    m_profiles:
+    - m_inheritedParent: 
+      m_id: 0ac60b206add7b84fb5944735653b189
+      m_profileName: Default
+      m_values:
+      - m_id: bbe1b74514985a843917c3e306791afe
+        m_value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_id: 99b81ff0672b12e49b5e2509092b7443
+        m_value: Assets/StreamingAssets/com.unity.addressables/[BuildTarget]
+      - m_id: 353761c6ebb494e4fac9563a82a3ead8
+        m_value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_id: 458dbd8665456aa479b10f45586ef4ff
+        m_value: ServerData/[BuildTarget]
+      - m_id: ea9388cbd7aa5d848ae558a4a706c1c7
+        m_value: http://localhost/[BuildTarget]
+    m_profileEntryNames:
+    - m_id: bbe1b74514985a843917c3e306791afe
+      m_name: BuildTarget
+      m_inlineUsage: 0
+    - m_id: 99b81ff0672b12e49b5e2509092b7443
+      m_name: LocalBuildPath
+      m_inlineUsage: 0
+    - m_id: 353761c6ebb494e4fac9563a82a3ead8
+      m_name: LocalLoadPath
+      m_inlineUsage: 0
+    - m_id: 458dbd8665456aa479b10f45586ef4ff
+      m_name: RemoteBuildPath
+      m_inlineUsage: 0
+    - m_id: ea9388cbd7aa5d848ae558a4a706c1c7
+      m_name: RemoteLoadPath
+      m_inlineUsage: 0
+    m_profileVersion: 1
+  m_labelTable:
+    m_labelNames:
+    - default
+  m_activeProfileId: 0ac60b206add7b84fb5944735653b189
